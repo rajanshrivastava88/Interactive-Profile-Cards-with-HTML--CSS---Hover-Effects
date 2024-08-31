@@ -70,3 +70,16 @@ body{
     font-size: 0.8rem;
     color: var(--text-light);
 }
+
+.profile__card .social__icons{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social__icons span{
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
